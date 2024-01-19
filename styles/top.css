@@ -1,0 +1,34 @@
+.top-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1rem;
+}
+
+.top-bar h1 {
+  font-size: 1rem;
+}
+
+.top-bar-notifications {
+  display: flex;
+  gap: .5rem;
+}
+
+.countNotifications {
+  background-color: var(--blue);
+  color: var(--white);
+  border-radius: 5px;
+  width: 1.8rem;
+  text-align: center;
+  font-weight: 800;
+  font-size: 1rem;
+}
+
+#clearAll {
+  background-color: transparent;
+  color: var(--dark-gray-blue);
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
