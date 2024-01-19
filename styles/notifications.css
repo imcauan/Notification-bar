@@ -1,0 +1,74 @@
+.notifications-section {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+}
+
+.notification {
+  display: flex;
+  text-align: left;
+  padding: 1rem;
+  gap: 1rem;
+  font-size: 0.8rem;
+}
+
+.notification-img {
+  max-width: 100%;
+  height: 3rem;
+}
+
+.notification .notification-name {
+  font-weight: 800;
+}
+
+.notification .notification-post {
+  font-weight: 800;
+  color: var(--dark-gray-blue);
+}
+
+.notification .notification-time {
+  color: var(--dark-gray-blue);
+}
+
+.notification.new::after {
+  content: "*";
+  font-size: 1rem;
+  color: var(--red);
+}
+
+.group-joined {
+  font-weight: 800;
+  color: var(--blue);
+}
+
+.group-left {
+  font-weight: 800;
+  color: var(--blue);
+}
+
+.private-message {
+  font-size: 0.7rem;
+  margin: 1rem 0 0 0;
+  text-align: justify;
+  border: 2px solid var(--light-gray-blue-second);
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+.new {
+  background-color: var(--light-blue);
+  border-radius: 10px;
+}
+
+.read {
+  background-color: none;
+}
+
+@media (min-width: 530px) {
+  .private-message {
+    word-break: break-all;
+  }
+}
+
