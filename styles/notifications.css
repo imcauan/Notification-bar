@@ -66,9 +66,3 @@
   background-color: none;
 }
 
-@media (min-width: 530px) {
-  .private-message {
-    word-break: break-all;
-  }
-}
-
